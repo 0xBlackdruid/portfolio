@@ -24,7 +24,7 @@ Notable audits for companies such as Yuga Labs, USDT, Citrea, and many more.
 ### Audit Competitions  
 
 | Contest | Findings | Report | 
-|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|
 | Alchemix V3 | 1 Critical | [source](https://reports.immunefi.com/alchemix-v3?utm_source=boost_program_page&_gl=1*1ltp5vy*_gcl_au*NzQ4MDY5OTA2LjE3Njk3NjU0OTk.*_ga*MTQ1MTcxOTc0Mi4xNzYxOTM0Mzg3*_ga_JPHMK6RZT0*czE3NzI2NjIxNzYkbzkxJGcxJHQxNzcyNjYyMTgxJGo1NSRsMCRoMTIxOTg4MjU2NA..) |
 | Panoptic: Next Core | 1 Medium | [source]() |
 

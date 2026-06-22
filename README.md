@@ -17,9 +17,9 @@ Security researcher across smart contract audits, web application security, and 
 
 | Target | Bug Class | Severity |
 |:--|:--|:--:|
-| T-Mobile | BAC | 2× High |
-| Swiss Post | BAC | High · Medium |
-| Harman Audio | BAC | High |
+| T-Mobile | Broken Access Control | 2× High |
+| Swiss Post | Broken Access Control | High · Medium |
+| Harman Audio | Broken Access Control | High |
 
 ---
 

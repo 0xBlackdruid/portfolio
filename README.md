@@ -11,7 +11,7 @@ Security researcher across smart contract audits, web application security, and 
 | [Alchemix V3](https://alchemix.fi/) | Self-repaying loans protocol | Critical | [Report](https://reports.immunefi.com/alchemix-v3) |
 | [Fluid DEX v2](https://blog.instadapp.io/fluid-dex-v2/) | Instadapp decentralized exchange | Medium | [Report](https://audits.sherlock.xyz/contests/1225/voting/1278) |
 | [Chainlink Payment Abstraction V2](https://blog.chain.link/payment-abstraction-svr-fee-conversion/) | Fee-conversion system (→ LINK) | Low | [Report](https://code4rena.com/audits/2026-03-chainlink-payment-abstraction-v2/submissions/S-1520) |
-| [Panoptic](https://panoptic.xyz/) | Perpetual options on Uniswap | Medium | — |
+| [Panoptic](https://panoptic.xyz/) | Perpetual options on Uniswap | Medium | [Report](https://code4rena.com/audits/2025-12-panoptic-next-core/submissions/S-959) |
 
 ## Web2 Bug Bounty
 

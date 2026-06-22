@@ -8,32 +8,34 @@ Security researcher across smart contract audits, web application security, and 
 
 | Protocol | Class | Severity | Report |
 |:--|:--|:--:|:--:|
-| [Alchemix V3](https://alchemix.fi/) | Self-repaying loans protocol | Critical | [report](https://reports.immunefi.com/alchemix-v3) |
-| [Fluid DEX v2](https://blog.instadapp.io/fluid-dex-v2/) | Instadapp decentralized exchange | Medium | [#12](https://audits.sherlock.xyz/contests/1225/voting/1278) |
-| [Chainlink Payment Abstraction V2](https://blog.chain.link/payment-abstraction-svr-fee-conversion/) | Fee-conversion system (→ LINK) | Low | [S-1520](https://code4rena.com/audits/2026-03-chainlink-payment-abstraction-v2/submissions/S-1520) |
+| [Alchemix V3](https://alchemix.fi/) | Self-repaying loans protocol | Critical | [Report](https://reports.immunefi.com/alchemix-v3) |
+| [Fluid DEX v2](https://blog.instadapp.io/fluid-dex-v2/) | Instadapp decentralized exchange | Medium | [Report](https://audits.sherlock.xyz/contests/1225/voting/1278) |
+| [Chainlink Payment Abstraction V2](https://blog.chain.link/payment-abstraction-svr-fee-conversion/) | Fee-conversion system (→ LINK) | Low | [Report](https://code4rena.com/audits/2026-03-chainlink-payment-abstraction-v2/submissions/S-1520) |
 | [Panoptic](https://panoptic.xyz/) | Perpetual options on Uniswap | Medium | — |
 
 ## Web2 Bug Bounty
 
-| Target | Class | Severity |
+| Target | Bug Class | Severity |
 |:--|:--|:--:|
-| T-Mobile | US wireless telecom carrier | 2× High |
-| Swiss Post | National postal service of Switzerland | High · Medium |
-| Harman Audio | Samsung audio / connected-car division | High |
+| T-Mobile | BAC | 2× High |
+| Swiss Post | BAC | High · Medium |
+| Harman Audio | BAC | High |
 
 ---
 
 ## Focus
 
-- **Languages.** Solidity, EVM/Yul, Rust. Cross-ecosystem work on DeFi and distributed-ledger infrastructure.
-- **Protocol classes.** Lending and money markets, AMMs and decentralized exchanges, options protocols, oracle and fee-conversion systems, cross-chain infrastructure. Currently going deep on Zero Knowledge Proof protocols.
-- **Where I tend to find bugs.** Raw-vs-effective accounting mismatches, stale state in conditional writes, share and liquidity mechanics, oracle integrity, role-boundary violations, and accounting-invariant breaks under boundary conditions.
+- **Languages and tooling.** Solidity, Rust, EVM, Foundry, manual code review, AI-assisted automated review, and distributed-ledger infrastructure.
+- **Protocol classes.** DeFi protocols, DEXs, options protocols, oracle and payment abstraction systems, and zero-knowledge proof protocols.
+- **Where I focus.** Protocol logic, accounting assumptions, cross-contract interactions, EVM behavior, vulnerability mitigation, and the implementation details that can turn small mistakes into critical bugs.
+
+---
 
 ## How I Work
 
-- **Adversarial-first.** Every state change is a hypothesis until I've traced who can reach it and what it costs to push past intended bounds.
-- **Boundary-obsessed.** Zero-state, max-state, first-depositor, last-withdrawer, and dust-amount paths get more attention than the happy path.
-- **Mechanical proof, not vibes.** Findings ship with PoCs or concrete numerical traces. If I can't make it break in a test, I don't claim it does.
+* **Adversarial-first.** I treat every state change as a potential attack surface until I understand who can reach it, under which assumptions, and what breaks when those assumptions fail.
+* **Boundary-focused.** I spend extra time on edge cases: zero-state, first-user, last-user, dust amounts, rounding behavior, stale state, and unexpected cross-contract interactions.
+* **Proof over intuition.** Findings are backed by PoCs, concrete traces, or reproducible reasoning. If I cannot clearly demonstrate the issue, I do not frame it as a vulnerability.
 
 ---
 
@@ -44,7 +46,6 @@ Security researcher across smart contract audits, web application security, and 
 [![Immunefi](https://img.shields.io/badge/Immunefi-blackdruiid-FF3D3D?style=for-the-badge)](https://immunefi.com/profile/blackdruiid/)
 [![X](https://img.shields.io/badge/X-@0xblackdruid-000000?style=for-the-badge)](https://x.com/0xblackdruid)
 
-- **Telegram:** Blackdruiid
 - **Discord:** 0xblackdruid
 
 ## Currently
